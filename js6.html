@@ -1,0 +1,28 @@
+<html>
+<head>
+	
+<script>
+    function SI()
+    {
+        p = document.getElementById("p").value;
+        n = document.getElementById("n").value;
+        r = document.getElementById("r").value;
+        result = document.getElementById("value");
+                
+        result.innerHTML = "The simple interest will be " + (p*n*r/100);
+    }
+</script>
+</head>
+
+<body>
+<h3>Simple Interest</h3>
+
+Amount: <input id="p"><br/>
+Rate: <input id="r"><br/>
+No. of Years: <input id="n"><br/>
+
+<button onclick="SI()">ENTER</button>
+
+<p id="value"></p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<img id="ex" src="amrita.jpg" width="300px">
+
+<script>
+document.getElementById("ex").onmouseover = function() {mouseOver()};
+document.getElementById("ex").onmouseout = function() {mouseOut()};
+
+
+function mouseOver() {
+  document.body.style.background = "red";
+}
+
+function mouseOut() {
+  document.body.style.background = "black";
+}
+document.getElementById("ex").onclick = function mouseClick() {
+
+  location.href = "js2.html";
+
+
+}
+</script>
+
+</body>
+</html>

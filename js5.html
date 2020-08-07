@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<body> 
+<p id="demo">names</p>
+<button onclick="sort()">Try it</button>
+
+<script>
+
+ function sort()
+{ 
+ 
+    names.sort(); 
+    document.getElementById("demo").innerHTML = names;
+
+} 
+
+var names = prompt("Enter names").split(",")
+
+</script>
+</body>
+</html>
